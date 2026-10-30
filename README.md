@@ -20,4 +20,4 @@
 
 ## GitHub Pages
 
-Pages 網址：`待部署後填入`
+Pages 網址：https://tandysandroid-ops.github.io/2026_-/
