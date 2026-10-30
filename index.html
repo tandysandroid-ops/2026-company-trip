@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2026宇宙科技公司員工旅遊</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="row row-title">
+        <h1>2026宇宙科技公司員工旅遊</h1>
+      </section>
+
+      <section class="row row-image">
+        <img src="./cover.jpg" alt="2026宇宙科技公司員工旅遊橫幅" />
+      </section>
+
+      <section class="row row-content-form">
+        <article class="card itinerary">
+          <h2>活動內容</h2>
+          <ul>
+            <li>08:00 報到</li>
+            <li>08:30 出發</li>
+            <li>10:00 抵達目的地</li>
+            <li>17:00 集合回程</li>
+            <li>19:00 歸賦</li>
+          </ul>
+        </article>
+
+        <section class="card signup">
+          <h2>報名表單</h2>
+          <form id="signup-form" novalidate>
+            <div class="field">
+              <label for="name">姓名 *</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="field">
+              <label for="email">E-mail *</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="field">
+              <label for="phone">電話 *</label>
+              <input id="phone" name="phone" type="tel" required />
+            </div>
+            <div class="field">
+              <label for="department">單位</label>
+              <input id="department" name="department" type="text" />
+            </div>
+            <div class="field">
+              <label for="title">職稱</label>
+              <input id="title" name="title" type="text" />
+            </div>
+            <button id="submit-button" type="submit">送出報名</button>
+            <p id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

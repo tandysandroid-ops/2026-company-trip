@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  background: linear-gradient(180deg, #f0fbff 0%, #fff7e9 100%);
+  color: #2e3652;
+}
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px 16px 36px;
+}
+
+.row {
+  width: 100%;
+}
+
+.row + .row {
+  margin-top: 18px;
+}
+
+.row-title {
+  text-align: center;
+  background: #ffffffcc;
+  border-radius: 16px;
+  padding: 20px 12px;
+  box-shadow: 0 6px 22px #2e36521c;
+}
+
+h1 {
+  margin: 0;
+  color: #16425b;
+  font-size: clamp(1.5rem, 3.5vw, 2.3rem);
+}
+
+.row-image img {
+  display: block;
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px #2e365229;
+}
+
+.row-content-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.card {
+  background: #ffffffd9;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 28px #2e36521c;
+}
+
+h2 {
+  margin: 0 0 12px;
+  color: #1f6391;
+}
+
+.itinerary ul {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.8;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #bdd6eb;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: 2px solid #65a6d3;
+  border-color: #65a6d3;
+}
+
+button {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 11px 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(90deg, #2b8fc5, #38b4a5);
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+#form-status {
+  min-height: 24px;
+  margin: 8px 0 0;
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .row-content-form {
+    grid-template-columns: 1fr;
+  }
+}
