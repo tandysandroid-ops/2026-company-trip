@@ -20,4 +20,4 @@
 
 ## GitHub Pages
 
-Pages 網址：https://tandysandroid-ops.github.io/2026_-/
+Pages 網址：https://tandysandroid-ops.github.io/2026-company-trip/
