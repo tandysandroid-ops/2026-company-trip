@@ -8,6 +8,9 @@
 - `styles.css`：頁面樣式
 - `script.js`：表單驗證與送出邏輯
 - `apps-script/Code.gs`：Google Apps Script 後端
+- `docs/system-maintenance.md`：系統架構、部署與維護手冊
+
+維護說明請參閱：[系統維護手冊](./docs/system-maintenance.md)。
 
 ## Google Apps Script
 
