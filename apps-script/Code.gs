@@ -22,7 +22,7 @@ function ensureSheet() {
     headerRange.setValues([HEADER]);
   }
 
-  sheet.getRange('D:D').setNumberFormat('@STRING@');
+  sheet.getRange('D:D').setNumberFormat('@');
   return sheet;
 }
 
