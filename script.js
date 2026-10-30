@@ -1,4 +1,4 @@
-const SCRIPT_URL = "PASTE_YOUR_WEB_APP_URL_HERE";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzArUpyp_Bx4L4StjiyOLOzz-ORA32e2uA56CWu7LGS0ftpOju-td-ZsC2wJkkZxlko/exec";
 
 const form = document.getElementById("signup-form");
 const statusText = document.getElementById("form-status");

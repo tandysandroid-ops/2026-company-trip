@@ -9,14 +9,12 @@
 - `script.js`：表單驗證與送出邏輯
 - `apps-script/Code.gs`：Google Apps Script 後端
 
-## Google Apps Script 佈署步驟
+## Google Apps Script
 
-1. 建立 Google Apps Script 專案並貼上 `apps-script/Code.gs` 內容。
-2. 在 Apps Script 中執行 `ensureSheet()`（第一次會建立/初始化 `2026_公司旅遊` 試算表）。
-3. 部署為 Web App：
-   - Execute as：`Me`
-   - Who has access：`Anyone`
-4. 取得 Web App URL，貼到 `script.js` 的 `SCRIPT_URL`。
+- 試算表：[2026_公司旅遊](https://docs.google.com/spreadsheets/d/1BZLvZkSB8QydbEI_f2D4MJbLhkeBUYuawbBrV6I7k5k/edit)
+- Apps Script 專案：[2026_公司旅遊 報名系統](https://script.google.com/u/0/home/projects/1ranMqb_EVyYOeZ6WYtFRKZ_OqECNRY-gBE82VkYf79_tzLAzprYGjsq5/edit)
+- Web App 已部署為「以擁有者身分執行」，並設為「所有人」可存取。部署網址已設定於 `script.js`。
+- 後端原始碼：`apps-script/Code.gs`
 
 ## GitHub Pages
 
